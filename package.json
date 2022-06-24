@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "@dcloudio/types": "^2.6.12",
     "uview-ui": "^2.0.31"
   },
   "devDependencies": {
-  },
+    "sass": "^1.53.0"
+  }
   
 }
