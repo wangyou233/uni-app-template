@@ -18,11 +18,72 @@
 		{
 			"path": "pages/user/selectRole"
 		}
-	],
+	    ,{
+            "path" : "pages/personal/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personal/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personal/fackback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/analyze/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智能分析",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/personal/information",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	}
+	},
+	  "tabBar": {
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "首页"
+	      },
+		  {
+		    "pagePath": "pages/analyze/index",
+		    "text": "分析"
+		  },
+		  {
+		    "pagePath": "pages/personal/index",
+		    "text": "我的"
+		  }
+	    ]
+	  }
 }
