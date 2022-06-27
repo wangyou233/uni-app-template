@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path": "pages/user/forgetPassword"
+		},
+		{
+			"path": "pages/user/register"
+		},
+		{
+			"path": "pages/user/selectRole"
 		}
 	],
 	"globalStyle": {
