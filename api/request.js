@@ -15,9 +15,9 @@ export default class Request {
         var requestUrl = api_url + url;
         if (method) {
             method = method.toUpperCase(); //小写改为大写
-            if (method == "POST") {
+            if (method == "POST" || method == "PUT") {
                header = {
-                   'content-type': "application/json",
+                   'Content-Type': "application/json",
 				   'Authorization':"Bearer "+ getToken()
                };
             } else {
