@@ -1,8 +1,12 @@
-import Request from '@/api/requset.js'
+import Request from '@/api/request.js'
 let request = new Request().http
 
+// 基础模块
 
-
-export function login(){
-	
+export function login(data) {
+	return request({
+		url: "/User/Login/Login", //请求头
+		method: "POST", //请求方式 
+		data: data, //请求数据
+	})
 }

@@ -1,11 +1,10 @@
 const key = "token"
-function getToken(){
-	uni.getStorageSync(key);
+export function getToken(){
+	return uni.getStorageSync(key);
 }
-function setToken(value){
+export function setToken(value){
 	uni.setStorageSync(key,value)
 }
-function removeToken(){
+export function removeToken(){
 	uni.removeStorageSync(key)
 }
-export default{getToken,setToken,removeToken}

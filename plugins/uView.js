@@ -1,5 +1,5 @@
 import Vue from "vue"
-import uView from "uview-ui"
+import uView from "@/uni_modules/uview-ui"
 uni.$u.setConfig({
 	config: {
 		unit: 'rpx'

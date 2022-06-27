@@ -1,4 +1,4 @@
 const config = {
-    baseUrl: ''
+    baseUrl: 'https://appapi.dev.eduwon.cn'
 }
 module.exports = config;
