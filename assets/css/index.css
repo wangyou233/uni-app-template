@@ -1,0 +1,163 @@
+.mt-sm{
+	margin-top: 5rpx !important;
+}
+.mb-sm{
+	margin-bottom: 5rpx !important;
+}
+.ml-sm{
+	margin-left: 5rpx !important;
+}
+.mr-sm{
+	margin-right: 5rpx !important;
+}
+.ma-sm{
+	margin: 5rpx !important;
+}
+
+.mt-xs{
+	margin-top: 10rpx !important;
+}
+.mb-xs{
+	margin-bottom: 10rpx !important;
+}
+.ml-xs{
+	margin-left: 10rpx !important;
+}
+.mr-xs{
+	margin-right: 10rpx !important;
+}
+.ma-xs{
+	margin: 10rpx !important;
+}
+.mt-md{
+	margin-top: 16rpx !important;
+}
+.mb-md{
+	margin-bottom: 16rpx !important;
+}
+.ml-md{
+	margin-left: 16rpx !important;
+}
+.mr-md{
+	margin-right: 16rpx !important;
+}
+.ma-md{
+	margin: 16rpx !important;
+}
+.mt-lg{
+	margin-top: 22rpx !important;
+}
+.mb-lg{
+	margin-bottom: 22rpx !important;
+}
+.ml-lg{
+	margin-left: 22rpx !important;
+}
+.mr-lg{
+	margin-right: 22rpx !important;
+}
+.ma-lg{
+	margin: 22rpx !important;
+}
+
+
+.pt-sm{
+	padding-top: 5rpx !important;
+}
+.pb-sm{
+	padding-bottom: 5rpx !important;
+}
+.pl-sm{
+	padding-left: 5rpx !important;
+}
+.pr-sm{
+	padding-right: 5rpx !important;
+}
+.pa-sm{
+	padding: 5rpx !important;
+}
+
+.pt-xs{
+	padding-top: 10rpx !important;
+}
+.pb-xs{
+	padding-bottom: 10rpx !important;
+}
+.pl-xs{
+	padding-left: 10rpx !important;
+}
+.pr-xs{
+	padding-right: 10rpx !important;
+}
+.pa-xs{
+	padding: 10rpx !important;
+}
+.pt-md{
+	padding-top: 16rpx !important;
+}
+.pb-md{
+	padding-bottom: 16rpx !important;
+}
+.pl-md{
+	padding-left: 16rpx !important;
+}
+.pr-md{
+	padding-right: 16rpx !important;
+}
+.pa-md{
+	padding: 16rpx !important;
+}
+.pt-lg{
+	padding-top: 22rpx !important;
+}
+.pb-lg{
+	padding-bottom: 22rpx !important;
+}
+.pl-lg{
+	padding-left: 22rpx !important;
+}
+.pr-lg{
+	padding-right: 22rpx !important;
+}
+.pa-lg{
+	padding: 22rpx !important;
+}
+
+
+
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+ .text-center {
+  text-align: center !important;
+}
+
+ .text-justify {
+  text-align: justify !important;
+}
+
+ .text-start {
+  text-align: start !important;
+}
+
+ .text-end {
+  text-align: end !important;
+}
+
+.text-body-1 {
+  font-size: 20rpx !important;
+  font-weight: 400;
+  line-height: 30rpx;
+}
+
+.text-body-2 {
+  font-size: 16rpx !important;
+  font-weight: 400;
+  line-height: 24rpx;
+}

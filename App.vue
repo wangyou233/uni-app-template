@@ -14,6 +14,7 @@
 
 <style lang="scss">
 	@import "@/uni_modules/uview-ui/index.scss";
+	@import "@/assets/css/index.css"
 
 	/*每个页面公共css */
 </style>

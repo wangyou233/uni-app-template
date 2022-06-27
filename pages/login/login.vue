@@ -1,6 +1,5 @@
 <template>
-	<view>
-		<u-no-network></u-no-network>
+	<view >
 	</view>
 </template>
 
