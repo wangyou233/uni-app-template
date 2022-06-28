@@ -10,3 +10,11 @@ export function login(data) {
 		data: data, //请求数据
 	})
 }
+
+export function getUserInfo(userId){
+	return request({
+		url:"/ManagerPersonalsController/ManagerPersonals/GetTeacherInfo",
+		method:"POST",
+		data:{userId : userId}
+	})
+}
