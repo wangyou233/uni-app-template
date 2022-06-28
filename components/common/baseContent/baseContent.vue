@@ -47,9 +47,9 @@
 			// });
 			// this.show_loading()
 			// this.hide_loading();
-			this.show_alert("123", "error");
-			this.show_alert("success123", "success");
-			this.show_alert("info123", "info");
+			// this.show_alert("123", "error");
+			// this.show_alert("success123", "success");
+			// this.show_alert("info123", "info");
 
 		}
 	}
