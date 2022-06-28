@@ -58,6 +58,7 @@ const store = new Vuex.Store({
 			}
 		},
 		show_alert_dialog(state, data) {
+			console.log(data)
 			state.alert_dialog = Object.assign({
 				message: "",
 				type:"",

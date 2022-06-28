@@ -28,7 +28,7 @@ Vue.mixin({
     },
     show_alert(obj, type = "info") {
       if (typeof obj === "string") {
-        obj = { title: obj, type: type };
+        obj = { message: obj, type: type };
       }
       this.$store.commit("show_alert_dialog", obj);
     }
