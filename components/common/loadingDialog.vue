@@ -1,5 +1,6 @@
 <template>
 	<view>
+		<u-loading-page loading-text="loading..." :loading="loading" fontSize="50" icon-size="50"></u-loading-page>
 
 	</view>
 </template>
@@ -12,7 +13,7 @@
 			}
 		},
 		props: {
-			dialog: Object
+			loading: Boolean
 		},
 		methods: {
 

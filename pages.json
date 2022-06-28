@@ -6,9 +6,12 @@
 		{
 			"path": "pages/index/index",
 			"navigationBarTitleText": "",
-			"navigationStyle": "custom",
-			"app-plus": {
-				"titleView": false
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
 			}
 		},
 		{
@@ -116,14 +119,14 @@
 		}
 	    ,{
             "path" : "components/common/baseContent/baseContent",
-            "style" :                                                                                    
+            "style" :
             {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
+
         }
-        
+
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

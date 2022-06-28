@@ -30,6 +30,18 @@
 
 		methods: {
 
+		},
+		mounted() {
+			// this.show_confirm({
+			// 	message: "123",
+			// 	confirm: function() {
+			// 		console.log(1)
+			// 	}
+			// });
+			// this.show_loading()
+			// this.hide_loading();
+			// this.show_alert("error", "error");
+
 		}
 	}
 </script>

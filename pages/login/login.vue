@@ -27,13 +27,13 @@
 					pwd:"123456",
 					remember:true
 				}
-				
+
 			}
 		},
 		created() {
 			let loginInfo = getLoginInfo()
 			console.log(loginInfo)
-			if (loginInfo != undefined && loginInfo != "") {
+			if (loginInfo !== undefined && loginInfo !== "") {
 				this.loginInfo = loginInfo
 			}
 		},
@@ -64,7 +64,7 @@
 							url:"/pages/index/index"
 						})
 					}
-					
+
 				})
 			}
 		},

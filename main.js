@@ -2,7 +2,7 @@ import App from '@/App'
 import uView from "@/plugins/uView"
 import "@/config/.env"
 import Vue from 'vue'
-import store from '@/store/index.js'
+import store from "@/store/index.js"
 
 
 import ConfirmDialog from "@/components/common/confirmDialog.vue";

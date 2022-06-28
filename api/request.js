@@ -6,6 +6,14 @@ import {
 import store from '@/store/index.js'
 console.log(process.uniEnv)
 const api_url = process.uniEnv.baseUrl;
+
+function show_alert(obj, type = "info") {
+  if (typeof obj === "string") {
+    obj = { title: obj, type: type };
+  }
+  store.commit("show_alert_dialog", obj);
+}
+
 export default class Request {
 	http(param) {
 		// 请求参数
@@ -32,9 +40,10 @@ export default class Request {
 
 		//加载圈
 		if (!hideLoading) {
-			uni.showLoading({
-				title: '加载中...'
-			});
+			    store.commit("set_loading", true);
+			// uni.showLoading({
+			// 	title: '加载中...'
+			// });
 		}
 
 		// 返回promise
@@ -60,6 +69,7 @@ export default class Request {
 						uni.showToast({
 							title: res.data.Msg
 						})
+						show_alert(res.data.Msg,"error")
 						resolve(null)
 					}
 					resolve(res.data)
@@ -67,17 +77,14 @@ export default class Request {
 				},
 				//请求失败
 				fail: (e) => {
-					uni.showToast({
-						title: "" + e.data.msg,
-						icon: 'none'
-					});
+					show_alert(e.data.msg,"error")
 					resolve(e.data);
 				},
 				//请求完成
 				complete() {
 					//隐藏加载
 					if (!hideLoading) {
-						uni.hideLoading();
+						store.commit("set_loading", false);
 					}
 					resolve();
 					return;

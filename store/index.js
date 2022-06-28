@@ -16,6 +16,7 @@ const store = new Vuex.Store({
 		alert_dialog: {
 			icon: "",
 			show: true,
+			type:"",
 			message: "",
 			params: Object,
 			position: "center",
@@ -36,6 +37,7 @@ const store = new Vuex.Store({
 			return state.confirm_dialog;
 		},
 		loading: state => {
+			console.log(state.loading_count)
 			return state.loading_count > 0;
 		},
 	},
@@ -57,12 +59,10 @@ const store = new Vuex.Store({
 		},
 		show_alert_dialog(state, data) {
 			state.alert_dialog = Object.assign({
-				icon: "",
-				show: true,
 				message: "",
+				type:"",
+				show:true,
 				params: Object,
-				position: "center",
-				complete: Function(),
 			}, data)
 		}
 	},
