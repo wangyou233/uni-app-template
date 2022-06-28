@@ -6,7 +6,7 @@ import '@/config/.env.js'
 Vue.prototype.$store = store
 
 Vue.prototype.$systemInfo = uni.getSystemInfoSync()
-console.log(Vue.prototype.$systemInfo)
+
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
