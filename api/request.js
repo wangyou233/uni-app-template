@@ -4,6 +4,7 @@ import {
 
 // vuex 的使用  详情参考官网 https://uniapp.dcloud.io/vue-vuex
 import store from '@/store/index.js'
+console.log(process.uniEnv)
 const api_url = process.uniEnv.baseUrl;
 export default class Request {
 	http(param) {

@@ -1,3 +1,18 @@
+.mt-none{
+	margin-top: 0rpx !important;
+}
+.mb-none{
+	margin-bottom: 0rpx !important;
+}
+.ml-none{
+	margin-left: 0rpx !important;
+}
+.mr-none{
+	margin-right: 0rpx !important;
+}
+.ma-none{
+	margin: 0rpx !important;
+}
 .mt-sm{
 	margin-top: 5rpx !important;
 }
@@ -60,7 +75,21 @@
 	margin: 22rpx !important;
 }
 
-
+.pt-none{
+	padding-top: 0rpx !important;
+}
+.pb-none{
+	padding-bottom: 0rpx !important;
+}
+.pl-none{
+	padding-left: 0rpx !important;
+}
+.pr-none{
+	padding-right: 0rpx !important;
+}
+.pa-none{
+	padding: 0rpx !important;
+}
 .pt-sm{
 	padding-top: 5rpx !important;
 }

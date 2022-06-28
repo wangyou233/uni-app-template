@@ -39,6 +39,7 @@
 		},
 		methods: {
 			login() {
+				let that = this;
 				let params = {
 					phone: this.loginInfo.phone,
 					pwd: this.loginInfo.pwd,
@@ -58,6 +59,7 @@
 						} else {
 							removeLoginInfo()
 						}
+						that.$store.dispatch("getUserInfo")
 						uni.switchTab({
 							url:"/pages/index/index"
 						})
