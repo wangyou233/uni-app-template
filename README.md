@@ -1,4 +1,4 @@
-# 初中数学项目结构
+#项目结构
 ![](http://doc.wangyou233.wang/server/index.php?s=/api/attachment/visitFile&sign=4d5f0b724bef05cda3a1f6e4747f3b4e)
 
 - api 请求相关类
