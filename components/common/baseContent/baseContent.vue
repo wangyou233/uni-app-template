@@ -32,15 +32,24 @@
 
 		},
 		mounted() {
+			//组件用法
 			// this.show_confirm({
 			// 	message: "123",
 			// 	confirm: function() {
 			// 		console.log(1)
+			// 	},
+			// 	cancel:function(){
+					
+			// 	},
+			// 	close:function(){
+					
 			// 	}
 			// });
 			// this.show_loading()
 			// this.hide_loading();
 			// this.show_alert("error", "error");
+			// this.show_alert("success", "error");
+			// this.show_alert("info", "error");
 
 		}
 	}
